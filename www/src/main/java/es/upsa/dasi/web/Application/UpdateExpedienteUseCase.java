@@ -1,0 +1,8 @@
+package es.upsa.dasi.web.Application;
+
+import Entities.Expediente;
+import Exceptions.AppException;
+
+public interface UpdateExpedienteUseCase {
+    Expediente updateExpediente(Expediente expediente) throws AppException;
+}
